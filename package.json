@@ -19,6 +19,6 @@
     "eslint": "^5.0.0"
   },
   "dependencies": {
-    
+    "kafka-node": "^2.6.1"
   }
 }
