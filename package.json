@@ -4,12 +4,16 @@
   "description": "Envoi de message vers kafka",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js",
+    "consumer": "node client.js",
+    "producer": "node index.js"
   },
   "keywords": [
     "kafka",
     "node",
-    "producer"
+    "producer",
+    "consumer"
   ],
   "author": "Claude Seguret",
   "license": "ISC",
